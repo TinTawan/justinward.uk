@@ -6557,8 +6557,8 @@ h1, h2, h3, h4, h5, h6 {
 .item_border{
   border: 2px solid #6D0F11;
   border-radius: 10px;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 2.1%;
+  padding-right: 2.1%;
   padding-top: 1%;
   padding-bottom: 1%;
 
@@ -6641,4 +6641,8 @@ iframe {
   aspect-ratio: 16 / 9;
   width: 100% !important;
   padding: 1%;
+}
+
+.linkUnderline{
+  text-decoration: underline;
 }
