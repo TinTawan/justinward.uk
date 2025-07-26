@@ -6635,3 +6635,10 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 }
+
+/* ensuring embed videos are correct for mobile */
+iframe {
+  aspect-ratio: 16 / 9;
+  width: 100% !important;
+  padding: 1%;
+}
