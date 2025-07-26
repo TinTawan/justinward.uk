@@ -2434,7 +2434,7 @@ ul {
   /* line 228, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .main_menu .main-menu-item .nav-item .nav-link {
     padding: 5px 15px !important;
-    color: #000;
+    /* color: #000; */
   }
   /* line 235, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_menu.scss */
   .navbar-collapse {
@@ -6617,6 +6617,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
 }
 
+/* desktop viewing */
 @media only screen and (min-width: 850px) {
   .galleryIndent{
     margin-left: 25%;
@@ -6628,11 +6629,23 @@ h1, h2, h3, h4, h5, h6 {
   
   }
 
+  .hideInDesktopView{
+    display: none;
+  }
 }
 
+/* mobile viewing */
 @media only screen and (max-width: 850px){
   .mobileView{
     display: none;
+  }
+
+  .hideInMobileView{
+    display: none;
+  }
+
+  .navbar-nav{
+  background-color: #4b0a0c;
   }
 }
 
@@ -6643,6 +6656,10 @@ iframe {
   padding: 1%;
 }
 
-.linkUnderline{
-  text-decoration: underline;
+.vertAlign{
+  margin: 0;
+}
+
+.navContactLink{
+  color: #fff;
 }
