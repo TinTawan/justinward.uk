@@ -6617,20 +6617,35 @@ h1, h2, h3, h4, h5, h6 {
   height: 50px;
 }
 
+
+
 /* desktop viewing */
 @media only screen and (min-width: 850px) {
   .galleryIndent{
     margin-left: 25%;
   }
- 
+  
   .center{
     display: flex;
     justify-content: center;
-  
+  }
+  .desktopView{
+    display: none;
   }
 
-  .hideInDesktopView{
-    display: none;
+  .cvStyle{
+    width: 100%;
+    height: 60em;
+    border: none;
+    padding-left: 15%;
+    padding-right: 15%;
+
+  }
+  .cvDownload{
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10%;
+    padding-bottom: 2%;
   }
 }
 
@@ -6640,12 +6655,32 @@ h1, h2, h3, h4, h5, h6 {
     display: none;
   }
 
-  .hideInMobileView{
-    display: none;
-  }
 
   .navbar-nav{
   background-color: #4b0a0c;
+  }
+
+  .cvStyle{
+    width: 100%;
+    height: 30em;
+    border: none;
+
+  }
+  .cvDownload{
+    padding-top: 20%;
+    padding-bottom: 2%;
+  }
+  .downloadButton{
+    display: flex;
+    justify-content: center;
+  }
+
+  .linksPadding{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -6663,3 +6698,6 @@ iframe {
 .navContactLink{
   color: #fff;
 }
+
+
+
