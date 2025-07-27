@@ -6677,11 +6677,17 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .linksPadding{
+    text-align: center;
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .contactPadding{
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
 }
 
