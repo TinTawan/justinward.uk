@@ -6689,6 +6689,15 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 5%;
     padding-bottom: 5%;
   }
+
+  .dropdownPadding{
+    padding: 5px 15px !important;
+
+  }
+
+  .nav-itemPaddingOverride{
+    padding: 10px 15px !important;
+  }
 }
 
 /* ensuring embed videos are correct for mobile */
