@@ -810,7 +810,7 @@ ul {
 /* line 76, ../../01 cl html template/03_jun 2019/186_Gaiming_html/sass/_blog.scss */
 .single-blog .tag {
   text-align: left;
-  display: inline-block;
+  display: block;
   float: left;
   font-size: 13px;
   font-weight: 300;
@@ -2997,6 +2997,7 @@ ul {
   display: inline-block;
   background: linear-gradient(to right, #ff0000 0%, #c6019a 50%, #ff0000 100%);
   -webkit-background-clip: text;
+  background-clip: initial;
   -webkit-text-fill-color: transparent;
   background-size: 200% auto;
   -webkit-transition: all 0.6s ease 0s;
