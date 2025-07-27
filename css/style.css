@@ -6670,7 +6670,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 20%;
     padding-bottom: 2%;
   }
-  .downloadButton{
+  .mobileCenter{
     display: flex;
     justify-content: center;
   }
@@ -6699,5 +6699,21 @@ iframe {
   color: #fff;
 }
 
+.selectedPage{
+  text-decoration: underline;
+}
 
+.contactButtonsPadding{
+  /* display: flex;
+  justify-content: center; */
 
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  
+  border: #751012;
+  border-radius: 5px;
+  border-width: 2px;
+}
