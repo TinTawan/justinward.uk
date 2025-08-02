@@ -6586,7 +6586,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: 1%;
 }
 
-.leftColumn{
+/* .leftColumn{
   width: 50%;
   float: left;
 
@@ -6600,7 +6600,7 @@ h1, h2, h3, h4, h5, h6 {
 
   padding-left: 2%;
   padding-right: 2%;
-}
+} */
 
 .botPad{
   padding-bottom: 0px ;
@@ -6622,6 +6622,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* desktop viewing */
 @media only screen and (min-width: 850px) {
+  .leftColumn{
+    width: 50%;
+    float: left;
+
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .rightColumn{
+    width: 50%;
+    float: right;
+
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .galleryIndent{
     margin-left: 25%;
   }
@@ -6652,6 +6668,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /* mobile viewing */
 @media only screen and (max-width: 850px){
+  .leftColumn{
+    width: 100%;
+    float: left;
+
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .rightColumn{
+    width: 100%;
+    float: right;
+
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
   .mobileView{
     display: none;
   }
@@ -6697,6 +6729,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .nav-itemPaddingOverride{
     padding: 10px 15px !important;
+  }
+
+  .projectButtonsPadding{
+    padding-bottom: 80%;
   }
 }
 
