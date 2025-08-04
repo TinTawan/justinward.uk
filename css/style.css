@@ -6538,6 +6538,10 @@ h1, h2, h3, h4, h5, h6 {
 .indent{
   margin-left: 30px;
 }
+.indent_topMargin{
+  margin-top: -3%;
+  margin-left: 30px;
+}
 
 .item_padding{
   text-align: center;
@@ -6768,4 +6772,15 @@ iframe {
   border: #751012;
   border-radius: 5px;
   border-width: 2px;
+}
+
+.textFocus{
+  color: #ff3d41;
+  font-style: italic;
+}
+
+.textFlexAlign{
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
