@@ -134,26 +134,34 @@
                 <h4>Overview</h4>
                 <p>
                     My Final Year Individual Project focuses on the immersion felt from playing a video game from the perspective of a non-human, specifically a dolphin using echolocation to see.
-                    <br><br>
-
+                    <br>
                     The design for Echoes Act is backed up with research into animal echolocation, human sensory modalities, and immersion in video games, and a mixed-methodology evaluation involving 
                     20 participants which used quantitative and qualitative data to conclude whether echolocation mechanics and the use of multiple sensory modes can create an immersive experience when playing
                     from the perspective of a non-human.
-                    <br><br>
-                    
-                    
-                </p>
+                </p><br><br>
+                <h4>The Game</h4>
+                <p>
+                    Play as Echoe, a dolphin who wants to clear up the rubbish in the ocean. Using echolocation, navigate the dark, underwater environment and sea caves to find pieces of rubbish and the 
+                    right bins to place them into. Use high frequency pulses for long range, long duration, and low frequency pulses for enclosed areas and a faster cooldown.
+                </p><br><br>
                 <h4>Highlights</h4>
                 <p>
-                    This project is one of five projects being presented at the Digital Shark Expo 2025, and is one of the reasons for my nomination as Outstanding TIGA Graduate of the Year: Programmer.
-                    <br><br>
-
+                    This project was one of five projects I presented at the Digital Shark Expo 2025, and is one of the reasons for my nomination as Outstanding TIGA Graduate of the Year: Programmer.
+                    <br>
                     Echoes Act was created as part of my dissertation and has been recognised for its themes in sound visualisation in video games and is in the process of being published as a chapter in 
                     the edited book: <strong><i>The Palgrave Handbook of Sound and Music Visualisation</i></strong>. My work will be featured alongside a range of global perspectives written by authors in 
                     many fields around music and sound visualisation.
+                </p><br><br>
+                <h4>Struggles and Overcoming</h4>
+                <p>
+                    It took some time to design a level which allowed the player to explore a dark environment without getting too lost. I knew level design wasn't my specialty but I did struggle with it. 
+                    I decided to create coral which emit their own pulses - reflecting the pulses of the player - to help point the player in the right directions around the level. They're also colour 
+                    coded to link with the correct rubbish item and bin, again to help the player navigate the level.
+                    <br>
+                    The shaders I used originally were all created in Unity's Shadergraph. I wanted to rewrite all the shaders I created into HLSL, but was only able to do this for one of the three shaders: 
+                    the outline shader. This shader is now more performant as it uses two passes, firstly rendering the base material, then the outline pass is rendered behind whenever necessary. This means 
+                    the object doesn't try to use two seperate materials for one mesh.
                 </p>
-
-                
 			</div><br><br>
         </section>
         <!-- text section end -->

@@ -136,15 +136,36 @@
                     For my Final Year Group Project I worked on a Virtual Reality fishing game, aimed at creating a relaxing environment for the player to put on their headset, 
                     sit back, and catch fish! I worked in a team of 5 called BitByBass where I was the programming lead for Gone Fishin'. Agile working methods
                     were used throughout the 3-month development cycle to help keep on track and deliver the MVP.
-                    <br><br>
-                    The visuals were greatly inspired by SEGA Bass Fishing, and we offer 6 species of fish for the player to catch. The weight of the fish are normally distributed, based around
+                    <br>
+                    The visuals were heavily inspired by SEGA Bass Fishing, and we offer 6 species of fish for the player to catch. The weight of the fish are normally distributed, based around
                     the average weight of that fish in the real world. Each fish must be released back into the lake, as well as the rod using non-barbed hooks, both to help promote an environment
                     againt the ill-treatment of fish.
-                    <br><br>
+                </p><br><br>
+                <h4>The Game</h4>
+                <p>
+                    Start the game in your fishing shed, pick out a beverage from the fridge and get to fishin'! Use the physics-based fishing 
+                    rod and cast out the line into the lake. Wait for a fish to bite and reel it in like a real fishing rod. Different fish 
+                    types have different chances to bite, and the heavier the fish, the more effort it will take to reel it in.
+                    <br>
                     In-game weather changes, like clear, light rain, stormy and snowy, and a dynamic time of day system allow for fishing in 
                     many environments. The "Fish Encyclopaedia" is a book which shows players their recent catches, shows a map of the lake, 
                     tells player information about the different types of fish, and acts as a diegetic menu.
-
+                </p><br><br>
+                <h4>My implementations</h4>
+                <p class="indent">
+                    • Fishing rod and line <br>
+                    • Normal distribution for fish weights <br>
+                    • Fish biting, reeling, catching, failing to catch, and releasing <br>
+                    • Dynamic time of day and weather code <br>
+                    • Pixelated water shader <br>
+                </p><br><br>
+                <h4>Struggles and Overcoming</h4>
+                <p>
+                    The main issue I ran into as the lead mechanics programmer was the physics-based rod and reel. It was difficult to get 
+                    both the rod and reel to be interactable VR objects and be smooth without feeling sluggish to the player. I overcame this 
+                    for the reel handle by using an invisible VR grab object as the real handle, which the visible handle follows the position 
+                    of for the reel arm to move around with. And for the reel to work correctly and not feel sluggish, I joined it to the rod 
+                    with a fixed joint and used a high mass to ensure the attachement was strong between them.
                 </p>
 
                 
