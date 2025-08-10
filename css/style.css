@@ -6784,3 +6784,28 @@ iframe {
   text-align: center;
   align-items: center;
 }
+
+.galleryItemInfo{
+  position: absolute;
+  top: 15%;
+  z-index: 5;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.single_gallery_item:hover .galleryItemInfo{
+  opacity: 1;
+  visibility: visible;
+}
+
+.galleryInfoFocus{
+  width: 20%;
+  text-align: center;
+}
