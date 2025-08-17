@@ -6582,6 +6582,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .overviewTitle{
   color: #ff3d41 !important;
+  text-align: center !important;
 
 }
 
@@ -6808,4 +6809,8 @@ iframe {
 .galleryInfoFocus{
   width: 20%;
   text-align: center;
+}
+
+.overviewSection{
+  text-align: left;
 }
